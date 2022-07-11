@@ -3,20 +3,20 @@ import Image from 'next/image';
 
 const Weather = (props) => {
 
-    let picture = "Clear";
-    let icon = props.data.weather[0].icon;
+    // let picture = "Clear";
+    // let icon = props.data.weather[0].icon;
 
-    if(icon==="01d" || icon==="01n" || icon==="01d"){
-      picture = "Clear"
-    } else if (icon==="02d" || icon==="02n" || icon==="03d" || icon==="03n" || icon==="04d" || icon==="04n" ) {
-      picture = "Clouds"
-    } else if (icon==="09d" || icon==="09n" || icon==="10d" ||icon==="10n" ){
-      picture = "Rain"
-    } else if (icon==="11d" ||icon==="11n" ) {
-      picture = "Thunderstorm"
-    }
+    // if(icon==="01d" || icon==="01n" || icon==="01d"){
+    //   picture = "Clear"
+    // } else if (icon==="02d" || icon==="02n" || icon==="03d" || icon==="03n" || icon==="04d" || icon==="04n" ) {
+    //   picture = "Clouds"
+    // } else if (icon==="09d" || icon==="09n" || icon==="10d" ||icon==="10n" ){
+    //   picture = "Rain"
+    // } else if (icon==="11d" ||icon==="11n" ) {
+    //   picture = "Thunderstorm"
+    // }
 
-    let src = '/../public/assets/'+picture+'.jpg';
+    // let src = '/../public/assets/'+picture+'.jpg';
 
   return (
     <div >
