@@ -20,11 +20,7 @@ const Weather = (props) => {
 
   return (
     <div >
-        <Image
-          src={src}
-          layout='fill'
-          className='object-cover -z-10'
-        />
+
   
 
 

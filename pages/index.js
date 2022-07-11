@@ -47,6 +47,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Image
+          src="/../public/assets/Clear.jpg"
+          layout='fill'
+          className='object-cover -z-10'
+        />
 
       {/* Search Bar */}
       <div className='relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 px-4 mb-10 text-gray-300 z-10'>
