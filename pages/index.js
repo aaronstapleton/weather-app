@@ -48,7 +48,7 @@ export default function Home() {
       </Head>
 
       <Image
-          src="/../public/assets/Clear.jpg"
+          src="https://images.unsplash.com/photo-1505487460685-7e53b8ee2300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
           layout='fill'
           className='object-cover -z-10'
         />
