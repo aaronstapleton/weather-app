@@ -17,13 +17,16 @@ const Weather = (props) => {
     }
 
     let src = '/../public/assets/'+picture+'.jpg';
+
   return (
-    <div>
+    <div className='relative w-screen h-screen'>
         <Image
           src={src}
           layout='fill'
           className='object-cover -z-10'
         />
+  
+
 
         <div className='grid grid-cols-3 h-[30vh]'>
             <div></div>
